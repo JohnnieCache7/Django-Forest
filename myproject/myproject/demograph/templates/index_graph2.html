@@ -1,0 +1,8 @@
+{% for output_item in output %}
+<span>Entered by: {{ output_item.book_name }} <br /> </span>
+<span>Assigned to: {{ output_item.author }}<br /> </span>
+<span>What needs done: {{ output_item.ave_user }}<br /> </span>
+<span>When it was added: {{ output_item.review_count }}<br /> </span>
+<span>When it needs completed: {{ output_item.price }}<br /> </span>
+<span> <br /> </span>
+{% endfor %}
